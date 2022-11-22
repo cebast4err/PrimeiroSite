@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biografia Caio </title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <table cellspacing="28">
+            <tr>
+                <td>
+                    <img class="imagem-Caio" src="img-modified.png"></td> 
+                <td>
+                    <h1 id="nome"> Caio Vitor </h1>
+                    <p>Caio, <strong>um jovem estudante Brasileiro</strong>, que atualmente, estuda programação. Faz cursos de FullStack!</p>           
+                </td>
+            </tr>
+                
+        </table>
+        
+        
+        <h2>Suas skills:</h2>
+        <ul>
+            <li>Boa escrita</li> 
+            <li> <a href="https://www.vivadecora.com.br/pro/dicas-de-oratoria/">Boa fala</a></li>
+            <li><a href="https://onewaylinguas.com.br/blog/2021/02/15/o-que-e-ingles-intermediario-entenda-os-niveis-de-ingles/">Inglês intermediário</a></li>
+            <li>Calmo</li>     
+        </ul>
+        <hr>
+        <h2>Tenho minhas prioridades</h2>
+            <h3>Em lista, como:</h3>
+            <ol>
+                <li>Familia</li>
+                <li>Minhas coisas</li>
+                <li>Meus amigos</li>
+                <li>Cursos</li>
+                <li>Trabalho</li>
+            </ol>
+        <H2>Datas dos meus cursos:</H2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Datas</th> 
+                    <th>Cursos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>2019 a 2021</th>
+                    <th>Ensino Médio</tr>
+                </tr>
+                <tr>
+                    <th>2013 a 2014</th>
+                    <th>Breve curso do Pacote Office</th>
+                </tr>
+                <tr>
+                    <th>2019 a 2022</th>
+                    <th>Inglês Escola CNA bigstar</th>
+                </tr>
+            </tbody>
+        </table>
+        <a href="C:\Users\cebast4err\OneDrive\Área Programação\HTML\contato.html"><strong>CONTATOS</strong></a> 
+    </body>
+</html>
