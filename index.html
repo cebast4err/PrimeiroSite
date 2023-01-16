@@ -1,62 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caio Document</title>
-    <link rel="stylesheet" href="PARTE CSS/style.css">
-</head>
-<body>  
-    <header>
-        <img class="cerebro" src="./Imagens aula/celebro-tech.png" alt="Cerebro">
-        <h1>Caio Vitor</h1>
-        <p class="efeito"><span>Uma vida feliz é aquela que aproveitamos</span></p>
-        <img class="cerebro2"src="./Imagens aula/celebro-tech.png" alt="Cerebro">
-        <img class="mundo" src="./Imagens aula/tech.png" alt="">
-    </header>
-    <main class="main">
-        <div class="sob-imagem-Caio">
-            <figure>
-                <td><img class="imagem-Caio" src="img-modified.png"></td>
-                <figcaption>
-                    <h2>Olá!</h2>
-                    Esse sou eu, uma pessoa com 19 anos com cara de 15
-                </figcaption>
-            </figure>
-        </div>
-        <hr>
-        <div class="habilidades">
-            <figure class="sobre">
-                <img class="configs" src="./Imagens aula/fazer-muito.png" alt="Ferri">
-                <figcaption>
-                    <h2>Sonho de ser desenvolvedor</h1>  
-                        <p class="descri">Sempre fui uma pessoa apaixonada por tenologia e jogos. Quando pude, queria saber como funcionava
-                            por traz dos panos, e apaixonei.
-                        </p> 
-                </figcaption>                   
-            </figure>
-            <figure class="sobre2">
-                <img class="imagem" src="https://static.vecteezy.com/ti/vetor-gratis/p1/136125-vector-de-ilustracao-de-tecnologia-livre-vetor.jpg" alt="ilust">
-                <figcaption>
-                    <h2>Minhas habilidades:</h2>
-                    <li>Sou uma pessoa criativa</li> 
-                    <li>Consigo criar muitas coisas do zero</li> 
-                    <li>Consigo digitar rápido e possuo uma ótima escrita. E consigo me comunicar muito bem!</li>
-                </figcaption>
-            </figure>
-        </div>
-    </main> 
-    <hr>
-    <footer class="footer">
-        <figure class="figure-cont">
-            <h3>Entre em contato através de:</h3>
-            <li><a href="https://www.instagram.com/caio_vitorsm/?hl=en">INSTAGRAM</a></li><br>
-            <li><a href="https://www.facebook.com/caiovitor.salgadodemiranda/">FACEBOOK</a></li><br>
-            <li><a href="https://www.linkedin.com/in/caio-vitor-81a3b7236/">LINKEDIN</a></figcaption></li><br>
-        </figure>
-    </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!--Fontes icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header id="title">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"> Projeto Duqueza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Blog</a>
+                    </li>
+                    </ul>
+                </div>
+            
+            </nav> 
+        
 
-</body>
+            <div class="row">
+                <div class="col-lg-6">
+                <h1>Encontre agora seu gatinho, e o torne seu animal de estimação</h1>
+                <button type="button" class="download-button btn btn-outline-secondary"> <i class="fa-brands fa-google-play"></i> Download</button>
+                <button type="button" class="download-button btn btn-outline-primary"> <i class="fa-brands fa-windows"></i> Download</button>
+                </div>
+
+            <figure class="col-lg-6">
+                <img class="gat" src="./Gatinho.png" alt="Gato">
+            </figure>
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="row">
+            <div class="features-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-circle-check fa-3x"></i>
+                <h3>Fácil de usar</h3>
+                <p>Tão fácil de usar que até seu gato poderia fazer isso</p>
+            </div>
+            <div class="features-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-bullseye fa-3x"></i>
+                <h3>Os melhores gatos</h3>
+                <p>Tamos os melhores gatos para você</p>
+            </div>
+            <div class="features-box col-lg-4">
+                <i class="icon fa-solid fa-heart fa-3x"></i>
+                <h3>Gato ama!</h3>
+                <p>Encontre o melhor gato para você!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Sistemas ótimo pra encontrar seus amigos</h2>
+                    <img id="imagem-rosto" class="testimonial-image" src="https://scontent.fplu17-1.fna.fbcdn.net/v/t39.30808-6/280310141_2013136138869805_1210724123975573448_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHz8LtSBQi2Vprt-UEQ6dycPXBcpVNcglU9cFylU1yCVcL-5nAB_xmhTLmTUz__gNQAPOwShjNQwWw7zaiQOelV&_nc_ohc=nJQuZ9wEce0AX9URtpu&_nc_ht=scontent.fplu17-1.fna&oh=00_AfDje7bWMq5VrjBmwaw1bIvKccuEtgGk7TkVTl1jluMwbg&oe=63BE338D" alt="Caio">
+                    <em>Caio</em>
+                </div>
+                <div class="carousel-item">
+                    <h2>Meu app é muito bom, é maravilhoso</h2>
+                    <img id="imagem-rosto" class="testimonial-image" src="https://scontent.fplu17-1.fna.fbcdn.net/v/t1.6435-9/52715497_2435306926501319_2035547935453741056_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFJUXTUqLRtoAuh5gcprHfMy-Ftnm8DWKDL4W2ebwNYoPFqeO2JBKUQLx_6bwyIaKOPsz5iZbkMcp2dewIGDpCt&_nc_ohc=hsUjKRFUv2sAX__1Dbq&_nc_ht=scontent.fplu17-1.fna&oh=00_AfA1dCX3aHXJD-FYKlhZ1eRRtQCvJcVa36N6sI_L-9ex3w&oe=63E152D5" alt="">
+                    <em>Eu</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>    
+            </a> 
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>    
+            </a> 
+        </div>
+    </section>
+
+    <section id="press">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </section>
+
+    <section id="Prices">
+        <div class="titulo-preços">
+            <h2>Um plano de necessidade de cada gato</h2>
+            <p>Planos de preços simples e acessiveis para você e seu gato</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 g-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Básico</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Grátis</h2>
+                    <p>5 curtidas por dia</p>
+                    <p>10 mensagens por dia</p>
+                    <p>40 curtidas por mês</p>
+                    <button type="button" class="btn btn-outline-dark">Inscreva-se</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-header">
+                    <h3>Intermediário</h3>
+                </div>
+                <div class="card-body">
+                    <h2>R$25 / mês</h2>
+                    <p>Curtidas ilimitadas</p>
+                    <p>Mensagens ilimitadas</p>
+                    <p>Acesso pleno do App</p>
+                    <button type="button" class="btn btn-secondary">Inscreva-se</button>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-header">
+                   <h3>Premium</h3> 
+                </div>
+                <div class="card-body">
+                    <h2>R$50 / mês</h2>
+                    <p>Lista de prioridade </p>
+                    <p>Curtidas ilimitadas</p>
+                    <p>Acesso completo ao App</p>
+                    <button type="button" class="btn btn-secondary">Inscreva-se</button>
+                </div>
+            </div> 
+
+        </div>
+    </section>
+
+    <section id="cta">
+        <h3c class="cta-titulo">Encontre o verdadeiro amor da vida do seu gato hoje</h3>
+        <button type="button" class="download-button btn btn-outline-secondary"> <i class="fa-brands fa-google-play"></i> Download</button>
+        <button type="button" class="download-button btn btn-primary"> <i class="fa-brands fa-windows"></i> Download</button>
+    </section>
+
+    <footer id="footer">
+        <p>@ Copyright 2022 AppDuqueza</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+
+</html>

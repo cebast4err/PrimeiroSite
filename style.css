@@ -1,113 +1,136 @@
 /*==============TAGS===============*/
-header {
-    background-color: #153462;
-    position: relative;
-    padding-top: 100px;
-}
-body {
-    margin:0;
-    text-align: center;
-    font-family: 'MerriWeather', serif;
-}
 h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 4em;
-    line-height: normal;
-    margin: 0 auto 0 auto;  
-    color: #66BFBF;
-    font-weight: normal;
-    margin-bottom: 10px;
+    font-family: "Montserrat, sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 h2 {
-    font-family: 'MontSerrat', sans-serif;
-    font-size: 33px;
-    color: #66BFBF;
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
 }
 h3 {
-    font-family: 'MontSerrat', sans-serif;
-    font-size: 1.5em;
-    color: #11999E   
+    font-family: 'Montserrat-Bold';
 }
-p {
-    line-height: 2;
+body {
+    font-family: "Montserrat, sans-serif";
 }
-hr {
-    border: dotted #000 6px;
-    width: 8%;
-    border-bottom: none;
-    margin: 100px auto;
+/*==============CLASSES=============== V */
+.container {
+    padding: 6% 15% 12%;
 }
-a {
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 10px 35px;
+.features-box {
+    text-align: center;
+}
+.icon {
+    color: #ef8172;
+    padding: 5%;
+}
+.icon:hover {
+    color: orangered;
+}
+.col-lg-6 {
+    margin-bottom: 20px;
+}
+.gat {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 250px;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+    width: 120px;
+    height: 40px;
+    text-align: center;
     color: white;
 }
-/*==============TAGS===============*/
-/*==============CLASSES===============*/
-.main {
-    text-align: center;
-    margin: 100px auto;
-
+.nav-item {
+    padding: 0% 10px;
+    font-weight: bold;
+    font-size: 1rem;
 }
-.configs {
-    width: 150px; 
-    float: left;
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    font-weight: bold;
 }
-.sobre {
-    width: 50%;
-    margin: 100px auto 10px auto;
-    text-align: left;
-}
-.sobre2 {
-    width: 50%;
-    margin: 100px auto 10px auto;
-    text-align: left;
-}
-.imagem{
-    width: 150px;
-    float: right;
-    position: relative;
-    margin-right: 5%;
-}
-.imagem-Caio {
-    margin-bottom: 10px;
-    position: relative;
-}
-.descri {
-    font-size: 13px;
-}
-
-.footer {
-    text-align: center;
-    margin: 100px auto 100px auto;
-    
-}
-
-.efeito {
-    text-decoration: underline;
-}
-.mundo {
-    position: relative;
-}
-.cerebro {
+.navbar-collapse {
+    right: 10%;
+    bottom: 80%;
     position: absolute;
-    right: 180px;
-    top: 80px;
 }
-.cerebro2 {
-    position: absolute;
-    left: 180px;
-    bottom: 80px;
+.carousel-item {
+    padding: 7% 15%;
 }
-.figure-cont {
-    width: 50%;
-    text-align: left;
-    margin: 100px auto 100px auto;
+.btn-outline-dark, .btn-secondary {
+    width: 75%;
 }
-/*==============CLASSES===============*/
-
-
+.titulo-preços {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cta-titulo {
+    font-family: "MontSerrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
 /*==============IDs===============*/
-
+#title {
+    background-color: #051d35;
+    color: white;
+    position: relative;
+}
+#features {
+    z-index: 1;
+    padding: 7% 15%;
+    position: relative;
+    background-color: white
+}
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#imagem-rosto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+#Prices {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    border-top: solid 1px black;;
+    border-bottom: solid 1px black;;
+}
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    margin: 0;
+}
 /*==============IDs===============*/
+/*==============Media @===============*/
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .gat {
+        position: static;
+        transform: rotate(0);
+    }
+}
